@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 import altair as alt
 
-df = pd.read_csv(r"Data\Value_Menu_Data_Trans.csv")
+df = pd.read_csv(r"InteractiveVizApp\Data\Value_Menu_Data_Trans.csv")
 
 colors = {"Arby's": '#d71921', "Burger King": '#185494', "Subway": '#23645d', 
           "McDonalds": '#ffc300', "Taco Bell": '#ec008c', "Wendy's": '#12acec'}
