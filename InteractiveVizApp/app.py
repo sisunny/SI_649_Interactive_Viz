@@ -58,7 +58,7 @@ with st.container():
 		franchises shared: Arby’s, Burger King, Subway, McDonalds, Taco Bell, and Wendy’s. 
 		We will be using the corresponding box colors to indicate specific franchises moving forward.''') 
 
-	franchises_image = Image.open(r"Images\Legend.png")
+	franchises_image = Image.open(r"InteractiveVizApp/Images/Legend.png")
 	st.image(franchises_image, caption='The franchises of interest in this analysis.')
 
 	st.markdown('''As such, these will be the 6 main franchises that we focus on in design of our 
@@ -83,7 +83,7 @@ with st.container():
 
 **2.**	I priced each item based on how much it cost in the greater Ann Arbor area in October 2022. I found pretty noticeable pricing differences based on geographies, like things typically costing 1.5x more in California. See the below figure for evidence based on the price of a big-mac.''')
 
-	big_mac_image = Image.open(r"Images\how-much-big-mac-costs.png")
+	big_mac_image = Image.open(r"InteractiveVizApp/Images/how-much-big-mac-costs.png")
 	st.image(big_mac_image, caption='Price of a big-mac across the country. Accessed from Zippia."How Much A Big Mac Costs In Every State" Zippia.com. Sep. 5, 2022')
 
 	st.markdown('''**3.**	I assumed that the serving weight parsed from each nutritional 
